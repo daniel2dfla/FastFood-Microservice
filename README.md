@@ -1,5 +1,3 @@
-# FastFood-Microservice
-
 # 🍔 FoodFast – Sistema de Pedidos com Microserviços
 
 Projeto de estudo utilizando **Java + Spring Boot + Kafka**, simulando um sistema simples de pedidos para uma empresa fictícia de delivery de comida.
