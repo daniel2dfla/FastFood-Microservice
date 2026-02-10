@@ -56,6 +56,8 @@ Regras inválidas:
 
 ## 🧩 Arquitetura
 
+![Diagrama](https://github.com/daniel2dfla/FastFood-Microservice/blob/develop/diagrama.png)
+
 [ order-service ] --> (Kafka Event)--> [ notification-service ]
 
 
