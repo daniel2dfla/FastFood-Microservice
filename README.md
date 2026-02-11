@@ -125,6 +125,7 @@ order-service
         ├── repository
         ├── entity
         ├── dto
+        ├── message
         ├── event
         └── config
 notification-service
