@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490e6d90-30cd-4c51-84b8-c29746bba05f" name="Changes" comment="" />
+    <list default="true" id="490e6d90-30cd-4c51-84b8-c29746bba05f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/order/message/OrderProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/order/message/OrderProducer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,13 +46,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.NotificationServiceApplication.executor": "Run",
     "Application.Order.executor": "Run",
     "Application.OrderServiceApplication.executor": "Run",
     "Maven.order [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "Feature/Notification-Service",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/GitHub/Car-Store-Java",
     "onboarding.tips.debug.path": "D:/GitHub/FastFood-Microservice/Order/src/main/java/com/orders/Main.java",
@@ -66,16 +71,34 @@
       <recent name="com.order.event" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Order" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="zulu-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.order.OrderServiceApplication" />
-      <module name="Order" />
+  <component name="RunManager" selected="Application.NotificationServiceApplication">
+    <configuration name="NotificationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.notification.NotificationServiceApplication" />
+      <module name="notification" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.notification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Order" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="zulu-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.order.OrderServiceApplication" />
+      <module name="order" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NotificationServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
