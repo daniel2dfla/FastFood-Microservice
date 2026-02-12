@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="490e6d90-30cd-4c51-84b8-c29746bba05f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/com/notification/notification/NotificationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/src/main/java/com/notification/NotificationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification/src/test/java/com/notification/notification/NotificationServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/src/test/java/com/notification/NotificationServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/order/order/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/order/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/order/dto/OrderPostDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/order/dto/OrderPostDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/order/event/OrderCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/order/event/OrderCreatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/order/message/OrderCreatedProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/order/message/OrderProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/test/java/com/order/order/OrderServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/test/java/com/order/OrderServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +21,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -44,12 +50,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Order.executor": "Run",
+    "Application.OrderServiceApplication.executor": "Run",
+    "Maven.order [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Feature/docker-kafka",
+    "git-widget-placeholder": "Feature/Creating-Order-Service-microservice",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GitHub/FastFood-Microservice",
+    "last_opened_file_path": "D:/GitHub/Car-Store-Java",
     "onboarding.tips.debug.path": "D:/GitHub/FastFood-Microservice/Order/src/main/java/com/orders/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -64,6 +73,17 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.order.event" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Order" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="zulu-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.order.OrderServiceApplication" />
+      <module name="Order" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
