@@ -20,6 +20,8 @@ public class KafkaConsumerMessage {
     public void listening(byte[] payload) {
         try{
             LOG.info("Received payload: {}", new String(payload));
+
+
         } catch (Exception e) {
             LOG.error("Error processing Kafka message", e);
             throw new RuntimeException(e);
