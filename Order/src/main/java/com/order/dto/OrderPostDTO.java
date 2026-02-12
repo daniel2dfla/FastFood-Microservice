@@ -15,7 +15,9 @@ import java.util.UUID;
 @AllArgsConstructor
 public class OrderPostDTO {
 
-        private UUID id;
+        private UUID orderId;
+
+        private UUID customerId;
 
         private String customer_name;
 
