@@ -165,13 +165,13 @@ Esta seção será preenchida conforme o desenvolvimento do projeto.
 
  - [x] Definição da arquitetura
 
- - [ ] Criação do order-service
+ - [X] Criação do order-service
 
- - [ ] Criação do notification-service
+ - [X] Criação do notification-service
 
- - [ ] Configuração do Kafka
+ - [X] Configuração do Kafka
 
- - [ ] Publicação de eventos
+ - [X] Publicação de eventos
 
  - [ ] Consumo de eventos
 
